@@ -6,7 +6,7 @@ import TextRepeaterButton from './components/TextRepeaterButton';
 import { useState } from 'react';
 
 
-function App(props) {
+function App() {
   const [light, setLight] = useState('off');
   const dark = (light === 'off') ? 'dark' : '';
   return (
